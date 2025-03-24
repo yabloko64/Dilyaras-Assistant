@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный дневник</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-lang="home">Главная</a></li>
+                <li><a href="todo.html" data-lang="todo">Список дел</a></li>
+                <li><a href="weather.html" data-lang="weather">Погода</a></li>
+                <li><a href="currency.html" data-lang="currency">Конвертер валют</a></li>
+                <li><a href="habits.html" data-lang="habits">Трекер привычек</a></li>
+                <li><a href="bmi.html" data-lang="bmi">Калькулятор ИМТ</a></li>
+                <li><a href="quotes.html" data-lang="quotes">Цитаты</a></li>
+                <li><a href="diary.html" data-lang="diary">Дневник</a></li>
+                <li><a href="settings.html" data-lang="settings">Настройки</a></li>
+                <li><a href="about.html" data-lang="about">О нас</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h1>Личный дневник</h1>
+        <textarea id="diaryInput" placeholder="Напишите свою запись..."></textarea>
+        <button id="saveEntry">💾 Сохранить</button>
+        <ul id="diaryList"></ul>
+
+<script src="js/diary.js"></script>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Dilyara's Assistant</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
